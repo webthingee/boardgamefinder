@@ -1,0 +1,11 @@
+BGF
+
+v0.0.1:
+    2024-12-23:
+    * Initial release
+
+v0.0.2:
+    2024-12-24:
+    * Added 'options' via right clicking on the icon.
+        * User can choosee to open results in new tab or current tab
+

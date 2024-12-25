@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Board Game Finder</title>
+    <style>
+      body {
+        width: 300px;
+        padding: 10px;
+      }
+      #selected-text {
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        min-height: 50px;
+      }
+      .setting-group {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 5px;
+        margin: 15px 0;
+      }
+      .setting-group h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 14px;
+      }
+      .setting-row {
+        margin: 8px 0;
+        font-size: 13px;
+      }
+      label {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Search text:</h3>
+    <div id="selected-text">No text selected</div>
+
+    <div class="setting-group">
+        <h3>Tab Opening Behavior</h3>
+        <div class="setting-row">
+            <label>
+                <input type="checkbox" id="bggBackground">
+                BoardGameGeek in background
+            </label>
+        </div>
+        <div class="setting-row">
+            <label>
+                <input type="checkbox" id="youtubeBackground">
+                YouTube in background
+            </label>
+        </div>
+        <div class="setting-row">
+            <label>
+                <input type="checkbox" id="amazonBackground">
+                Amazon in background
+            </label>
+        </div>
+        <div class="setting-row">
+            <label>
+                <input type="checkbox" id="oracleBackground">
+                Board Game Oracle in background
+            </label>
+        </div>
+        <div class="setting-row">
+            <label>
+                <input type="checkbox" id="searchAllBackground">
+                "Search All" in background
+            </label>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html> 
