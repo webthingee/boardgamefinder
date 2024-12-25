@@ -1,0 +1,34 @@
+Privacy Policy for Board Game Finder Extension
+
+Last Updated: [Current Date]
+
+1. Data Collection
+Board Game Finder does not collect, store, or transmit any personal user data. The extension operates entirely within your browser and does not:
+- Track your browsing history
+- Store your searches
+- Collect personal information
+- Use analytics or tracking tools
+- Share any data with third parties
+
+2. How the Extension Works
+- The extension only reads text that you explicitly select when searching for board games
+- Search results are displayed in new browser tabs
+- All operations are performed locally in your browser
+- No data is saved after the browser tabs are closed
+
+3. Permissions
+The extension requires certain permissions to function:
+- activeTab: to read selected text when you choose to search
+- scripting: to process your search requests
+- tabs: to open search results
+- contextMenus: to provide right-click search functionality
+- tabGroups: to organize search results
+
+4. Third-Party Websites
+While this extension helps you search various board game websites, it does not control these websites. Please refer to each website's individual privacy policy when visiting them through our extension.
+
+5. Updates to This Policy
+If our data practices change, we will update this privacy policy accordingly.
+
+6. Contact
+If you have questions about this privacy policy, please contact [Your Contact Information].
