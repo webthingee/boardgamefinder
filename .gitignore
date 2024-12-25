@@ -1,1 +1,17 @@
- 
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Extension packaging
+*.zip
+*.crx
+*.pem
+
+# Node modules (if you add them later)
+node_modules/ 
