@@ -4,14 +4,8 @@
     <title>Board Game Finder</title>
     <style>
       body {
-        width: 300px;
+        width: 350px;
         padding: 10px;
-      }
-      #selected-text {
-        margin-top: 10px;
-        padding: 10px;
-        border: 1px solid #ddd;
-        min-height: 50px;
       }
       .setting-group {
         border: 1px solid #ddd;
@@ -36,11 +30,34 @@
     </style>
   </head>
   <body>
-    <h3>Search text:</h3>
-    <div id="selected-text">No text selected</div>
+    <h2>Board Game Finder Options</h2>
 
     <div class="setting-group">
-        <h3>Tab Opening Behavior</h3>
+        <h2>Search Settings</h2>
+        <div class="setting-row">
+          <h3>YouTube Settings:</h3>
+            <label>
+                <input type="checkbox" id="appendYoutube">
+                Add "board game" to YouTube searches
+            </label>
+        </div>
+        <div class="setting-row">
+            <label>
+                <input type="checkbox" id="appendYoutubeSolo">
+                Add "solo" to YouTube searches
+            </label>
+        </div>
+        <div class="setting-row">
+          <h3>Amazon Settings:</h3>
+            <label>
+                <input type="checkbox" id="appendAmazon">
+                Add "board game" to Amazon searches
+            </label>
+        </div>
+    </div>
+
+    <div class="setting-group">
+        <h2>Tab Opening Behavior</h2>
         <div class="setting-row">
             <label>
                 <input type="checkbox" id="bggBackground">
